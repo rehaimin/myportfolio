@@ -32,7 +32,9 @@ function showSection(e) {
         }, 500);
     }
     if (window.innerWidth <= 768) {
-        navCol.classList.toggle('nav-display')
+        if (navCol.classList.contains('nav-display')){
+            navCol.classList.toggle('nav-display')
+        }
     }
     mainContainer.scrollTo(0, 0);
 
