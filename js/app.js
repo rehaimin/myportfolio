@@ -58,7 +58,7 @@ const themeBtn = document.querySelector('.theme-btn');
 themeBtn.addEventListener('click', () => {
     if (getCssVariable("--bg") == darkTheme.bg) {
         toggleTheme(lightTheme);
-        themeBtn.innerHTML = "&#xF288;";
+        themeBtn.innerHTML = "&#xF494;";
         localStorage.setItem('theme', 'light');
     } else {
         toggleTheme(darkTheme);
