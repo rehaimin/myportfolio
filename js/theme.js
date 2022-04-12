@@ -35,6 +35,6 @@ function toggleTheme(theme) {
 if (localStorage.getItem('theme') == "dark") {
     toggleTheme(darkTheme);
     window.addEventListener('DOMContentLoaded', () => {
-        themeBtn.innerHTML = "&#xF5A2;";
+        themeBtn.innerHTML = "&#xF5A1;";
     })
 }
