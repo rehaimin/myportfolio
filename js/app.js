@@ -62,7 +62,7 @@ themeBtn.addEventListener('click', () => {
         localStorage.setItem('theme', 'light');
     } else {
         toggleTheme(darkTheme);
-        themeBtn.innerHTML = "&#xF5A2;";
+        themeBtn.innerHTML = "&#xF5A1;";
         localStorage.setItem('theme', 'dark');
     }
 })
