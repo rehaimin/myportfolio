@@ -4,28 +4,15 @@
 }
 
 @font-face {
-	font-family: "Roboto";
-	src: local("Roboto"), url("../fonts/Roboto-Regular.ttf");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Roboto";
-	src: local("Roboto"), url("../fonts/Roboto-Bold.ttf");
-	font-weight: bold;
-	font-style: normal;
-}
-@font-face {
 	font-family: "Poppins";
-	src: local("Poppins"), url("../fonts/Roboto-Regular.ttf");
+	src: local("Poppins"), url("../fonts/Poppins-Regular.ttf");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Poppins";
-	src: local("Poppins"), url("../fonts/Roboto-Bold.ttf");
+	src: local("Poppins"), url("../fonts/Poppins-Bold.ttf");
 	font-weight: bold;
 	font-style: normal;
 }
