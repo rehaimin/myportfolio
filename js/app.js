@@ -30,9 +30,9 @@ function showSection(e) {
 			});
 		}, 500);
 	}
-	if (window.innerWidth <= 800) {
+	if (window.innerWidth <= 870) {
 		if (navCol.classList.contains("nav-display")) {
-			navCol.classList.toggle("nav-display");
+			navCol.classList.remove("nav-display");
 		}
 	}
 	mainContainer.scrollTo(0, 0);
